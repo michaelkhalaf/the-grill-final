@@ -1,0 +1,396 @@
+body{
+    margin:0 3%;
+    font-family: 'Barriecito';
+    text-transform: capitalize;
+    background-color: black;
+}
+.p1{
+    color: white;
+    font-size: 25px;
+    margin: 0%;
+    padding-left: 20px;
+}
+.p1:hover span{
+    color: white !important;
+}
+.p2{
+    font-family:'Fredericka the Great', cursive;
+    color: black;
+    font-size: xx-large;
+    margin: 0%;
+    font-weight:500;
+    
+}
+.p3{
+    padding: 2%;
+    color: black;
+    font-size: xx-large;
+    margin: 0%;
+}
+.p4{
+    font-size: medium;
+}
+.p5{
+    font-size: x-large;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-family: "Audiowide", sans-serif;
+    color:white;
+    text-shadow: black 3px 3px 3px;
+} 
+.span1{
+    font-size: 30px;
+    color: #e91b2f;
+}
+.span2{
+    color: #e91b2f;
+    font-weight: 100;
+}
+header{
+    padding-top: 70px;
+}
+.slider-text{
+    padding-bottom:350px ;
+}
+.uper-nav{
+    width: 100vw;
+    height: 30px;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.uper-nav a{
+    text-decoration: none;
+    color: black;
+    font-size:large;
+    margin: 0 5px;
+
+}
+.uper-nav a:hover{
+    color:#e91b2f;
+    margin: 0 5px;
+}
+.uper-nav div{
+    margin: 0 3%;
+    text-align: center;
+}
+.nav-con{
+    top: 30px;
+}
+.nav-left-con div ul li a:hover{
+    color: #e91b2f !important;
+}
+h1{
+    margin: auto;
+    color: black;
+    padding-bottom: 3%;
+    font-weight: 1000;
+    font-size: 300%;
+}
+section{
+    margin: 3% 0;
+}
+.cont p{
+    text-align: start;
+    padding-left:30%;
+}
+@media (max-width: 767.98px) {
+    .cont p{
+        padding-left: 10%;
+        font-size:x-large;
+    } 
+    #wel-div{
+        font-size:50% !important;
+    }
+    #wel-div p{
+        font-size:30px !important;
+    }
+    .nav-con{
+        top: 0px;
+    }
+    .kids-aria img {
+        width: 320px;
+        height: auto;
+    }
+    .down-img{
+        margin-top: 5%;
+        width: 320px !important;
+        height: auto !important;
+    }
+    .kids-aria button{
+        display: none;
+    }
+    #wel-div{
+        width: 80vw !important;
+        height:fit-content !important;
+        position: fixed;
+        margin-bottom: 0;
+        padding:60px;
+        top: 10vh !important;
+        right: 10vw !important;
+    }
+    .History img {
+        display: none;
+    }
+}
+.welcome-div{
+    margin: 0 3%;
+    padding: 10% 0;
+    text-align: center;
+}
+.con{
+    padding-top: 3%;
+}
+.meal img {
+    width: 30%;
+    height: auto;
+    border-radius: 50%;
+}
+.meal img:hover{
+    border-radius: 10%;
+}
+.meal{
+    padding: 2%;
+    border-bottom-right-radius: black 10%;
+}
+.meal .health{
+    padding: 1%;
+    border:#e91b2f solid;
+    color: #e91b2f;
+    background-color: white;
+    box-shadow: none;
+}
+.meal .health:hover{
+    padding: 1%;
+    background-color:#e91b2f;
+    color: white;
+    box-shadow: none;
+}
+.scroll-nav-control li{
+    width:25%;
+    border-radius: 5%;
+}
+.scroll-nav-control ul{
+   
+   background-color: white;
+}
+.scroll-nav-control a {
+    color:#e91b2f;
+    
+}
+.scroll-nav-control a:active :visited {
+    color:white;
+    background-color: rgb(20, 19, 19);
+}
+.up-to-nuv{
+    background-color: #e91b2f;
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: auto;
+    padding: auto;
+}
+.up-to-nuv a{
+    color: white;
+    text-decoration: none;
+}
+
+.div-con-menu button{
+    background-color: black;
+    color: white;
+    border-radius: 15%; 
+}
+.nav-control{
+    background-color: black;
+}
+.chef-div{
+    background-image:url("../media/pg2.jpg");
+}
+.chef-con{
+    width: 360px;
+    height: 420px;
+    margin-top: 5%;
+    overflow: hidden;
+    border-radius: 10%;
+    display: flex;
+    justify-content: left;
+}
+.chef-con:hover .over-lay{
+    display: block !important;
+    border: white solid;
+}
+.chef-con:hover .social-div{
+    display: block !important;
+    border: white solid;
+}
+.chef-con img{
+    border: black solid;
+}
+.chef{
+    border-radius: 10%
+}
+.over-lay{
+    position:absolute;
+    display:none;
+    background-color: black !important;
+    opacity: 0.5;
+    width: 348px;
+    height: 420px;
+    border-radius: 10%;
+}
+.social-div{
+    position:absolute;
+    display:none;
+    width: 348px;
+    height: 420px;
+    border-radius: 10%;
+    color: white;
+}
+.social-div h2{
+    margin-top: 45%;
+}
+.social-div svg{
+    font-size:xx-large;
+    text-decoration: none;
+    color: white;
+    margin:8px;
+}
+.social-div :hover svg{
+    color: #e91b2f;
+}
+.card-con{
+    margin-left: 7%;
+}
+.button-card-con{
+    border:none;
+    color: #e91b2f;
+}
+.kids-div{
+    background-image:url("../media/kids.jpg");
+}
+.kids-aria{
+    margin: 5%;
+    width: auto;
+}
+.kids-aria img {
+    border-radius: 5%;
+    padding: 0;
+    margin: 0;
+    border: black solid;
+}
+.down-img{
+    border-radius: 3%;
+    text-align: start;
+    height:auto;
+    width: 20vw;
+    background-image: url("../media/bear.jpg");
+}
+.kids-aria button{
+    position: absolute;
+    margin-top:300px;
+    margin-left :250px;
+    border: black solid;
+    border-radius: 5%;
+    color: black;
+}
+.kids-aria:hover img{
+    animation-name: kids-aria;
+    animation-duration: 2s;
+    animation-delay: 0;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease-in;
+}
+.kids-aria:hover button{
+    animation-name: kids-aria;
+    animation-duration: 2s;
+    animation-delay: 0;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease-in;
+}
+#div-hide-show:hover{
+    animation-name: kids-aria;
+    animation-duration: 2s;
+    animation-delay: 0;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease-in;
+}
+#div-hide-show{
+    border: black solid;
+}
+.start-but{
+    margin-top: 3%;
+    color: #e91b2f;
+    border: #e91b2f solid;
+    border-radius: 10%;
+}
+.start-but:hover{
+    color: white;
+    background-color: #e91b2f;
+}
+#wel-div{
+    width: 50vw;
+    height:fit-content;
+    position: fixed;
+    margin-bottom: 0;
+    padding:60px;
+    top: 30vh;
+    right: 25vw;
+    z-index:2;
+    box-shadow: 20px 20px 50px black;
+    animation-name: welcome;
+    animation-duration: 4s;
+}
+h2 span{
+    color: #e91b2f !important;
+}
+footer{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ifra{
+    border-radius: 10%;
+    margin-top: 3%;
+}
+.p-con{
+    color: white !important;
+    text-align: center;
+}
+@keyframes kids-aria {
+    0%   {border-top:#e91b2f solid; border-top-left-radius:10% ;}
+    25%  {border-right:#e91b2f solid; border-top-right-radius:10% ;}
+    50%  {border-bottom:#e91b2f solid; border-bottom-right-radius:10% ;}
+    100% {border-left:#e91b2f solid; border-bottom-left-radius:10% ;}
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
